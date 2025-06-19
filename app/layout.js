@@ -12,7 +12,7 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Portfolio | Rahul Singh - Full Stack Developer",
+  title: "Portfolio | Shyam Events",
   description:
     "Rahul Singh's portfolio showcasing full stack development projects using Java, Spring Boot, MongoDB, Express, React, and Node.js. Explore professional web applications and backend solutions.",
 };
