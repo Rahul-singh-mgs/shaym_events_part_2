@@ -37,7 +37,8 @@ const Services = () => {
         transition={{ delay: 0.7, duration: 0.5 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
       >
-        I’m a professional photographer with over a decade of experience in capturing the joy and emotion of life’s most beautiful moments — from weddings and tilak ceremonies to birthdays and anniversaries across India.
+        I’m a professional photographer with over a decade of experience in capturing the joy and emotion of life’s
+        most beautiful moments — from weddings and tilak ceremonies to birthdays and anniversaries and much more.
       </motion.p>
 
       <motion.div
@@ -55,7 +56,7 @@ const Services = () => {
             {/* ✅ Icon replaced with image as background */}
             <div
               className="w-14 h-14 mb-4 bg-center bg-cover rounded-full"
-              style={{backgroundImage: `url(${typeof icon === 'string' ? icon : icon?.src})` }}
+              style={{ backgroundImage: `url(${typeof icon === 'string' ? icon : icon?.src})` }}
             />
 
             <h3 className="text-lg my-2 text-gray-700">{title}</h3>
