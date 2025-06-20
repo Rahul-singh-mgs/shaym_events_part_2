@@ -12,9 +12,9 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Portfolio | Shyam Events",
+  title: "Shyam Events",
   description:
-    "Rahul Singh's portfolio showcasing full stack development projects using Java, Spring Boot, MongoDB, Express, React, and Node.js. Explore professional web applications and backend solutions.",
+    "",
 };
 
 export default function RootLayout({ children }) {
