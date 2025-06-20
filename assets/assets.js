@@ -73,8 +73,8 @@ import background_g from './background_g.jpg'
 import wedding from './wedding.png'
 import tilak from './tilak.png'
 import engagement from './engagement.png'
-import corparate from './engagement.png'
-import birthday from './corparate.png'
+import corparate from './corparate.png'
+import birthday from './birthday.png'
 import anu from './anu.png'
 import prewedding from './prewedding.png'
 import video from './video.png'
@@ -148,7 +148,7 @@ export const assets = {
     whatsapp,
     calling,
     address,
-    birthday,
+    
     anu,
     prewedding,
     video,

@@ -4,71 +4,58 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
-const Footer = ({ isDarkMode }) => {
+const Footer = () => {
   return (
-    <div className="mt-2">
+    <div className="mt-4 px-4">
       <div className="text-center">
         <Image
-          src={ assets.shyam_logo}
+          src={assets.shyam_logo}
           alt="Shyam Events Logo"
-          className="w-56 mx-auto mb-2"
+          className="w-44 sm:w-56 mx-auto mb-4"
         />
 
-        <div className="w-max flex items-center gap-2 mx-auto mb-2">
-          <Image
-            src={ assets.mail_icon}
-            alt="Email Icon"
-            className="w-6"
-          />
-          <span>shayamevents.mgs@gmail.com</span>
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-2 mb-2 text-sm">
+          <div className="flex items-center gap-2">
+            <Image src={assets.mail_icon} alt="Email Icon" className="w-5 sm:w-6" />
+            <span>gopal.mgs.gc@gmail.com</span>
+          </div>
         </div>
 
-        {/* ✅ Mobile Number */}
-        <div className="w-max flex items-center gap-2 mx-auto ">
-          <Image
-            src={assets.whatsapp} // make sure you have this icon
-            alt="Phone Icon"
-            className="w-6"
-          />
-          <span>+91 7007181810</span>
-        </div>
-        <div className="w-max flex items-center gap-2 mx-auto ">
-          <Image
-            src={assets.calling} // make sure you have this icon
-            alt="Phone Icon"
-            className="w-6"
-          />
-          <span>+91 7052480780</span>
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-2 mb-2 text-sm">
+          <div className="flex items-center gap-2">
+            <Image src={assets.whatsapp} alt="WhatsApp Icon" className="w-5 sm:w-6" />
+            <span>+91 7007181810</span>
+          </div>
         </div>
 
-        {/* ✅ Address */}
-        <div className="w-max flex items-center gap-2 mx-auto">
-          <Image
-            src={assets.address} // make sure you have this icon
-            alt="Location Icon"
-            className="w-6"
-          />
-          <span>Hinauli Modh, Mughalsarai, Chandauli, Uttar-Pradesh</span>
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-2 mb-2 text-sm">
+          <div className="flex items-center gap-2">
+            <Image src={assets.calling} alt="Phone Icon" className="w-5 sm:w-6" />
+            <span>+91 7052480780</span>
+          </div>
+        </div>
+
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-2 text-sm">
+          <div className="flex items-center gap-2">
+            <Image src={assets.address} alt="Location Icon" className="w-5 sm:w-6" />
+            <span className="text-center sm:text-left">
+              Hinauli Modh, Mughalsarai, Chandauli, Uttar-Pradesh
+            </span>
+          </div>
         </div>
       </div>
 
-      <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
-        <p>© 2025 Shyam Events. All rights reserved.</p>
-        <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
+      <div className="text-center sm:flex sm:items-center sm:justify-between border-t border-gray-300 mx-auto max-w-5xl mt-10 py-5 text-sm">
+        <p className="mb-4 sm:mb-0">© 2025 Shyam Events. All rights reserved.</p>
+        <ul className="flex flex-wrap items-center gap-6 justify-center">
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="">
-              Instagram
-            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/">Instagram</a>
           </li>
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="">
-              Facebook
-            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/">Facebook</a>
           </li>
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="">
-              YouTube
-            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/">YouTube</a>
           </li>
         </ul>
       </div>
