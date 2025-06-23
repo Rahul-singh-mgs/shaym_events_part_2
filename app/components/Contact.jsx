@@ -76,7 +76,7 @@ const Contact = () => {
             placeholder='Enter your name'
             required
             name='name'
-            className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-[#84daeb] '
+            className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-[#c5f2fc] '
           />
 
           <motion.input
@@ -87,7 +87,7 @@ const Contact = () => {
             placeholder='Enter your email'
             required
             name='email'
-            className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md  bg-[#84daeb] '
+            className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md  bg-[#c5f2fc] '
           />
 
           <motion.input
@@ -98,7 +98,7 @@ const Contact = () => {
             placeholder='Enter your Mobile Number'
             required
             name='mobile'
-            className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md  bg-[#84daeb] '
+            className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md  bg-[#c5f2fc] '
           />
 
           <motion.input
@@ -109,7 +109,7 @@ const Contact = () => {
             placeholder='Enter your Event Type'
             required
             name='event_name'
-            className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md  bg-[#84daeb] '
+            className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md  bg-[#c5f2fc] '
           />
 
           <motion.input
@@ -120,7 +120,7 @@ const Contact = () => {
             placeholder='Enter your Location'
             required
             name='location'
-            className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md  bg-[#84daeb] '
+            className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md  bg-[#c5f2fc] '
           />
 
           <motion.input
@@ -131,7 +131,7 @@ const Contact = () => {
             placeholder='Enter Event Duration'
             required
             name='event_duration'
-            className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md  bg-[#84daeb]  '
+            className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md  bg-[#c5f2fc]  '
           />
 
         </div>
@@ -141,7 +141,7 @@ const Contact = () => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 1.3, duration: 0.6 }}
           rows='6' placeholder='Enter your message' required
-          className='w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md  bg-[#84daeb] mb-6  ' name='message'></motion.textarea>
+          className='w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md  bg-[#c5f2fc] mb-6  ' name='message'></motion.textarea>
 
         <motion.button
           whileHover={{ scale: 1.05 }}
